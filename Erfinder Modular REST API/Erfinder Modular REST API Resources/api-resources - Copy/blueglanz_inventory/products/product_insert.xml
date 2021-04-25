@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <sql> INSERT INTO `blueglanz_inventory`.`products` (`product_type_id`,`product_type_name`) VALUES (?,?); </sql>
+    <param>product_type_id</param>
+    <param>product_type_name</param>
+</resource>

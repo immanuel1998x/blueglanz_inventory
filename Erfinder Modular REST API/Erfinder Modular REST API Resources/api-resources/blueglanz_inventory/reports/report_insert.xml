@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <sql> INSERT INTO `blueglanz_inventory`.`reports` (`client_name`,`contact_no`,`description`,`quantity`,`sold`,`rented`,`date_returned`,`amount`,`deposit`,`report_id`) VALUES (?,?,?,?,?,?,?,?,?,?); </sql>
+    <param>client_name</param>
+    <param>contact_no</param>
+    <param>description</param>
+    <param>quantity</param>
+    <param>sold</param>
+    <param>rented</param>
+    <param>date_returned</param>
+    <param>amount</param>
+    <param>deposit</param>
+    <param>report_id</param>
+</resource>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <sql> INSERT INTO `blueglanz_inventory`.`payment` (`transaction_id`,`total_amount`,`amount_tendered`,`change`) VALUES (?,?,?,?); </sql>
+    <param>transaction_id</param>
+    <param>total_amount</param>
+    <param>amount_tendered</param>
+    <param>change</param>
+</resource>
+

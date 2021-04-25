@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <sql>SELECT * FROM `blueglanz_inventory`.`products` where product_type_name = ? ; </sql>
+    <param>product_type_name</param>
+</resource>

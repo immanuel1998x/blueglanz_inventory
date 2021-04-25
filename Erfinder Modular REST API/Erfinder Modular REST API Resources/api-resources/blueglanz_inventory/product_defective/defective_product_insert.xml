@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <sql> INSERT INTO `blueglanz_inventory`.`defective_products` (`product_type_id`,`product_type_name`,`qty_damaged_item`,`description`,`color`,`size`,`style_no`,`barcode`) VALUES (?,?,?,?,?,?,?,?); </sql>
+    <param>product_type_id</param>
+    <param>product_type_name</param>
+     <param>qty_damaged_item</param>
+    <param>description</param>
+     <param>color</param>
+    <param>size</param>
+     <param>style_no</param>
+    <param>barcode</param>
+</resource>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <sql> UPDATE `blueglanz_inventory`.`products` SET `product_type_id` = ?,`product_type_name` = ? WHERE `id` = ?;</sql>
+    <param>product_type_id</param>
+    <param>product_type_name</param>
+    <param>id</param>
+</resource>

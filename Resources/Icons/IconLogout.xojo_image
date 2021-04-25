@@ -1,0 +1,40 @@
+#tag MultiImage
+Image IconLogout
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAABNQzpcVXNlcnNcSW1tYW5cRG93bmxvYWRzXDEyMjY5MDU1NF8zNjAxNTcyMjYzMjM4MDAxXzUxMjQwMTI0ODMyMjE4NTUzMzJfbi5wbmcDAAAAAAEABAAAAAABAAAAAAAAAA==
+		FullPath = C:\Users\Imman\Downloads\122690554_3601572263238001_5124012483221855332_n.png
+		PartialPath = ..\..\Downloads\122690554_3601572263238001_5124012483221855332_n.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 512.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = 512.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 512.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = 512.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 512.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = 512.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage

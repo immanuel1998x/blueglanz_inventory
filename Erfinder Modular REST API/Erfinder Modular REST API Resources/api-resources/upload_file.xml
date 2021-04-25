@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <sql>SELECT * FROM `shydans_reservation`.`reservations` ORDER BY id DESC;</sql>
+    <file path="../Shydans/Images/">file</file>
+</resource>

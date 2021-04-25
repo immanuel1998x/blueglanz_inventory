@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <sql>UPDATE `blueglanz_inventory`.`transactions` SET `qty_damageditem` = ?, `damaged_fee` = ?,`qty_returned_item` = ?, `returned_status` = ? WHERE `id` = ?;</sql>
+    <param>qty_damageditem</param>
+    <param>damaged_fee</param>
+    <param>qty_returned_item</param>
+    <param>returned_status</param>
+    <param>id</param>
+</resource>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+  <sql>SELECT * FROM `blueglanz_inventory`.`products` WHERE  concat_ws(' ', barcode) like CONCAT('%',?,'%'); </sql>
+    <param>barcode</param>
+    <!-- <param>description</param> -->
+</resource>

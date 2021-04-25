@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+
+   <!-- Products Route-->
+    <route>
+        <path>products/search</path>
+        <resource>blueglanz_inventory/products/product_search</resource>
+        <user_group>1</user_group>
+    </route>
+
+    <route>
+        <path>products/insert</path>
+        <resource>blueglanz_inventory/products/product_insert</resource>
+        <user_group>1</user_group>
+    </route>
+    
+     <route>
+        <path>products/update</path>
+        <resource>blueglanz_inventory/products/product_update</resource>
+        <user_group>1</user_group>
+    </route>
+
+    <route>
+        <path>products/delete_by_id</path>
+        <resource>blueglanz_inventory/products/product_delete_where_id</resource>
+        <user_group>1</user_group>
+    </route>
+
+   
+    <route>
+        <path>products/select_by_id</path>
+        <resource>blueglanz_inventory/products/product_select_by_id</resource>
+        <user_group>1</user_group>
+    </route>
+
+    <route>
+        <path>products/fetch_all</path>
+        <resource>blueglanz_inventory/products/product_fetch_all</resource>
+        <user_group>1</user_group>
+    </route>
+    <route>
+        <path>products/fetch_attribute_by_id</path>
+        <resource>blueglanz_inventory/products/product_attributes_select_by_id</resource>
+        <user_group>1</user_group>
+    </route>
+
+
+    <route>
+        <path>product_types/filter_by_type</path>
+        <resource>blueglanz_inventory/products/product_filter_by_type</resource>
+        <user_group>1</user_group>
+    </route>
+
+    <route>
+        <path>product_types/search</path>
+        <resource>blueglanz_inventory/products/product_search</resource>
+        <user_group>1</user_group>
+    </route>
+
+
+   <!-- Reports Route-->
+
+    <route>
+        <path>reports/insert</path>
+        <resource>blueglanz_inventory/reports/report_insert</resource>
+        <user_group>1</user_group>
+    </route>
+    
+     <route>
+        <path>reports/update</path>
+        <resource>blueglanz_inventory/reports/report_update</resource>
+        <user_group>1</user_group>
+    </route>
+
+    <route>
+        <path>reports/delete_by_id</path>
+        <resource>blueglanz_inventory/reports/report_delete_where_id</resource>
+        <user_group>1</user_group>
+    </route>
+
+    <route>
+        <path>reports/fetch_all</path>
+        <resource>blueglanz_inventory/reports/report_fetch_all</resource>
+        <user_group>1</user_group>
+    </route>
+
+    <route>
+        <path>reports/mark_as_return</path>
+        <resource>blueglanz_inventory/reports/report_mark_as_returned</resource>
+        <user_group>1</user_group>
+    </route>
+
+    <route>
+        <path>reports/filter_by_date</path>
+        <resource>blueglanz_inventory/reports/report_filter_by_date</resource>
+        <user_group>1</user_group>
+    </route>
+
+
+    <route>
+        <path>product_types/fetch_all</path>
+        <resource>blueglanz_inventory/product_types/product_type_fetch_all</resource>
+        <user_group>1</user_group>
+    </route>
+
+   <!-- Product Attributes Route-->
+
+    <route>
+        <path>product_attributes/insert</path>
+        <resource>blueglanz_inventory/products_attributes/product_attributes_insert</resource>
+        <user_group>1</user_group>
+    </route>
+    
+     <route>
+        <path>product_attributes/update</path>
+        <resource>blueglanz_inventory/products_attributes/product_attributes_update</resource>
+        <user_group>1</user_group>
+    </route>
+
+    <route>
+        <path>product_attributes/delete_by_id</path>
+        <resource>blueglanz_inventory/products_attributes/product_attributes_delete_where_id</resource>
+        <user_group>1</user_group>
+    </route>
+
+<!-- 
+    <route>
+        <path>product_attributes/delete_by_id</path>
+        <resource>blueglanz_inventory/products_attributes/product_attributes_delete_where_id</resource>
+        <user_group>1</user_group>
+    </route> -->
+
+    <route>
+        <path>product_attributes/select_by_product_id</path>
+        <resource>blueglanz_inventory/products_attributes/product_attributes_select_by_product_id</resource>
+        <user_group>1</user_group>
+    </route>
+
+   <route>
+        <path>product_attributes/update_stock</path>
+        <resource>blueglanz_inventory/products_attributes/product_attributes_update_stock</resource>
+        <user_group>1</user_group>
+    </route>
+
+  <route>
+        <path>product_attributes/restock</path>
+        <resource>blueglanz_inventory/products_attributes/product_attributes_restock</resource>
+        <user_group>1</user_group>
+    </route>
+
+ <!-- Product Type Route-->
+
+    <route>
+        <path>product_types/insert</path>
+        <resource>blueglanz_inventory/product_types/product_type_insert</resource>
+        <user_group>1</user_group>
+    </route>
+    
+     <route>
+        <path>product_types/update</path>
+        <resource>blueglanz_inventory/product_types/product_type_update</resource>
+        <user_group>1</user_group>
+    </route>
+
+    <route>
+        <path>product_types/delete_by_id</path>
+        <resource>blueglanz_inventory/product_types/product_type_delete_where_id</resource>
+        <user_group>1</user_group>
+    </route>
+
+    <route>
+        <path>product_types/select_by_id</path>
+        <resource>blueglanz_inventory/product_types/product_type_select_by_id</resource>
+        <user_group>1</user_group>
+    </route>
+
+
+
+
+   <!-- User Management Route-->
+
+    <route>
+        <path>manage_user/insert</path>
+        <resource>blueglanz_inventory/user_management/user_insert</resource>
+        <user_group>1</user_group>
+    </route>
+
+     <route>
+        <path>manage_user/update</path>
+        <resource>blueglanz_inventory/user_management/user_update</resource>
+        <user_group>1</user_group>
+    </route>
+
+    <route>
+        <path>manage_user/delete_by_id</path>
+        <resource>blueglanz_inventory/user_management/user_delete_where_id</resource>
+        <user_group>1</user_group>
+    </route>
+    
+    <route>
+        <path>manage_user/select_by_id</path>
+        <resource>blueglanz_inventory/user_management/user_select_by_id</resource>
+        <user_group>1</user_group>
+    </route>
+
+
+    <route>
+        <path>manage_user/fetch_all</path>
+        <resource>blueglanz_inventory/user_management/user_fetch_all</resource>
+        <user_group>1</user_group>
+    </route>
+
+<!-- User Login Route-->
+    <route>
+        <path>user/login</path>
+        <resource>blueglanz_inventory/user_management/user_login</resource>
+        <user_group>1</user_group>
+    </route>
+</routes>

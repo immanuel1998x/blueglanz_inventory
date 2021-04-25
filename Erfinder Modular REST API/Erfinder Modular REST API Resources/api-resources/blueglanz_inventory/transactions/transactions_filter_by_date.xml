@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <sql>SELECT  *  FROM blueglanz_inventory.transactions where date(transaction_date) BETWEEN ? AND ?;</sql>
+    <param>start</param>
+    <param>finish</param>
+</resource>

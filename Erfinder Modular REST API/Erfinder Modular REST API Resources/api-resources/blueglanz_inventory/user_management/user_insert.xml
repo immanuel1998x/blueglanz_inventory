@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <sql> INSERT INTO `blueglanz_inventory`.`users` (`fullname`,`contact_no`,`gender`,`pin`,`role`,`username`,`password`) VALUES (?,?,?,?,?,?,?); </sql>
+    <param>fullname</param>
+    <param>contact_no</param>
+    <param>gender</param>
+    <param>pin</param>
+    <param>role</param>
+    <param>username</param>
+    <param>password</param>
+</resource>

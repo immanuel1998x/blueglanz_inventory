@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <sql>SELECT * FROM `blueglanz_inventory`.`transactions` where client_id = ? ; </sql>
+    <param>client_id</param>
+</resource>
+
+
+
+
+

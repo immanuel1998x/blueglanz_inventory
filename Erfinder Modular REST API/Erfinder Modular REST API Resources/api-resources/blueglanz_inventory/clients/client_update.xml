@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <sql> UPDATE `blueglanz_inventory`.`clients` SET `first_name` = ?,`last_name` = ?,`address` = ?,`contact_no` = ? WHERE `id` = ?;</sql>
+    <param>first_name</param>
+    <param>last_name</param>
+    <param>address</param>
+    <param>contact_no</param>
+    <param>id</param>
+</resource>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <sql> INSERT INTO `blueglanz_inventory`.`product_rented_list` (`transaction_rental_ID`,`product_rental_id`,`qty`,`size`,`color`,`description`,`price`) VALUES (?,?,?,?,?,?,?); </sql>
+    <param>transaction_rental_ID</param>
+    <param>product_rental_id</param>
+    <param>qty</param>
+    <param>size</param>
+    <param>color</param>
+    <param>description</param>
+    <param>price</param>
+</resource>

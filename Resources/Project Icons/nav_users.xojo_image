@@ -1,0 +1,40 @@
+#tag MultiImage
+Image nav_users
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAB7QzpcVXNlcnNcSW1tYW5cRG9jdW1lbnRzXGJsdWVnbGFuel9pbnZlbnRvcnlfc3lzdGVtXFJlc291cmNlc1xJY29uc1xJbWFnZVxOYXZiYXJc4oCUUG5ndHJlZeKAlHZlY3RvciB1c2VycyBpY29uXzQxNDQ3NDAucG5nAwAAAAABAAQAAAAAAQAAAAAAAAA=
+		FullPath = C:\Users\Imman\Documents\blueglanz_inventory_system\Resources\Icons\Image\Navbar\—Pngtree—vector users icon_4144740.png
+		PartialPath = Resources\Icons\Image\Navbar\—Pngtree—vector users icon_4144740.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 1349.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = 1349.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 1349.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = 1349.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 1349.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = 1349.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage
